@@ -15,9 +15,7 @@ public class Loginpage {
 		element = driver.findElement(By.xpath("//input[@placeholder='Login']"));
 		return element;
 	}
-	
 
-	
 	public static WebElement txtPassword(WebDriver driver) {
 		
 		element = driver.findElement(By.xpath("//input[@name='password']"));
@@ -30,7 +28,11 @@ public class Loginpage {
 		return element;
 	}
 	
-	
+	public static WebElement popularMake(WebDriver driver) {
+		
+		element = driver.findElement(By.xpath("//div[@class='row']//div[1]//div[1]//a[1]"));
+		return element;
+	}
 		
 
 	

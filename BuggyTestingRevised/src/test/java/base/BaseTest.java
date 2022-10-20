@@ -66,7 +66,7 @@ public class BaseTest {
 		public void tearDown() {
 			
 			//logout
-			driver.close();
+//			driver.close();
 			System.out.println("Tear Down Successful!");
 		}
 	
